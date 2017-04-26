@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="ListView"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/listView_btn"
+        android:background="@drawable/button_chang"/>
+    <Button
+        android:text="ChatUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatUI_btn" />
+    <Button
+        android:text="SQLiteTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sqlitetest_btn" />
+
+    <Button
+        android:text="FragmentTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragtest_btn" />
+
+</LinearLayout>
